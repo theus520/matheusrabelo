@@ -2,20 +2,19 @@
 
 int main (){
 	
- int y;
+ int x;
  
   printf("digite o valor numerico\n");
-  scanf("%d",&y);
+  scanf("%d",&x);
   
 //	printf("x sera maior ou igual 5");
 	
-	if (y<=10)
+	if (x<=10)
 	{
-		printf("y sera menor\n");
+		printf("x sera maior");
+	}else if (x <=7) { 
 		
-	}else if (y <=7) { 
-		
-		printf("y sera maior \n");
+		printf("x sera maior \n");
 	
 	}else{
 		
