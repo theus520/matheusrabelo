@@ -2,21 +2,21 @@
 
 int main (){
 	
- int x;
+ int y;
  
   printf("digite o valor numerico\n");
-  scanf("%d",&x);
+  scanf("%d",&y);
   
 //	printf("x sera maior ou igual 5");
 	
-	if (x>=5)
+	if (y>=5)
 	{
-		printf("x eh maior\n");
+		printf("y eh maior\n");
 		
 	}else{
 		
 	
-	printf("x e menor \n");
+	printf("y e menor \n");
 	
 	}
 	
