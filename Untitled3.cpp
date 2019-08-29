@@ -9,18 +9,19 @@ int main (){
   
 //	printf("x sera maior ou igual 5");
 	
-	if (y>=5)
+	if (y<=10)
 	{
-		printf("y eh maior\n");
+		printf("y sera menor\n");
 		
+	}else if (y <=7) { 
+		
+		printf("y sera maior \n");
+	
 	}else{
 		
-	
-	printf("y e menor \n");
-	
+		
+		printf("sera diferente");
 	}
-	
-	
 	
 	return 0;
 }
